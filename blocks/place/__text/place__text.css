@@ -1,0 +1,13 @@
+.place__text {
+  grid-area: text;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content max-content;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 680px) {
+  .place__text {
+    margin: 0 16px;
+  }
+}

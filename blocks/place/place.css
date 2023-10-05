@@ -1,0 +1,26 @@
+.place {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "title url-heading"
+  "title link"
+  "image text";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 22px min-content;
+  column-gap: 3.5%;
+  grid-auto-flow: column;
+  max-width: 928px;
+}
+
+@media screen and (max-width: 680px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "url-heading"
+    "link"
+    "image"
+    "text"
+    ;
+  }
+}

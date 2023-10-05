@@ -1,0 +1,15 @@
+.lead {
+  box-sizing: border-box;
+  margin: 0 auto 0;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media screen and (min-width: 1280px) {
+  .lead {
+    margin: 56px auto 0;
+  }
+} */

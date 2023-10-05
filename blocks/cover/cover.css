@@ -1,0 +1,17 @@
+.cover {
+  position: relative;
+  max-width: 1184px;
+  width: 100%;
+  margin: 92px auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 55% 45%;
+  row-gap: 32px;
+}
+
+@media screen and (max-width: 680px) {
+  .cover {
+    row-gap: 16px;
+  }
+} 
+
